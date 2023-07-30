@@ -87,6 +87,21 @@
          <version>1.9.2</version>
          <scope>test</scope>
      </dependency>
+
+
+     <dependency>
+         <groupId>log4j</groupId>
+         <artifactId>log4j</artifactId>
+         <version>1.2.17</version>
+         <scope>compile</scope>
+     </dependency>
+     <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+     <dependency>
+         <groupId>org.apache.logging.log4j</groupId>
+         <artifactId>log4j-core</artifactId>
+         <version>2.17.1</version>
+     </dependency>
+
      <!--     <dependency>-->
 <!--         <groupId>de.monochromata.cucumber</groupId>-->
 <!--         <artifactId>reporting-plugin</artifactId>-->
@@ -108,6 +123,15 @@
         <artifactId>surefire-junit47</artifactId>
         <version>3.1.2</version>
       </dependency>
+            <!-- https://mvnrepository.com/artifact/log4j/log4j -->
+
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+            <scope>compile</scope>
+        </dependency>
+
     </dependencies>
   </plugin>
 

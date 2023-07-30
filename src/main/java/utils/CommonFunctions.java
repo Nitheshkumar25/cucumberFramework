@@ -4,6 +4,9 @@ import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.LogManager;
+import org.apache.log4j.PropertyConfigurator;
+import org.apache.log4j.Logger;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -89,6 +92,13 @@ public class CommonFunctions {
 			Assert.assertEquals(assertData, ele.getAttribute("title"));
 		else if (typeOfAssert.equalsIgnoreCase("productText"))
 			Assert.assertEquals(assertData, ele.getText());
+
+	}
+	private static final Logger logger = null;
+
+	public static Logger setLog(Class<?> className){
+
+		return  LogManager.getLogger(className.getName());
 
 	}
 }

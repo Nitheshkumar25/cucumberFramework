@@ -1,0 +1,8 @@
+=[INFO]-2023-07-31 01:20:47 INFO  Login:26 - url verified done:user_is_on_login_page
+=[INFO]-2023-07-31 01:20:50 INFO  Login:37 - user logged in sc completed:user_enters_login_credentials_username_password
+=[INFO]-2023-07-31 01:20:50 INFO  Login:26 - url verified done:user_is_on_login_page
+=[INFO]-2023-07-31 01:20:50 INFO  Login:45 - user with wrong pwd  sc completed:user_enters_incorrect_password
+=[INFO]-2023-07-31 01:20:51 INFO  Login:60 - Error message  verify completed:user_should_get_error_message
+=[INFO]-2023-07-31 01:20:51 INFO  Login:26 - url verified done:user_is_on_login_page
+=[INFO]-2023-07-31 01:20:51 INFO  Login:53 - user with wrong userName  sc completed:user_enters_incorrect_userName
+=[INFO]-2023-07-31 01:20:51 INFO  Login:60 - Error message  verify completed:user_should_get_error_message

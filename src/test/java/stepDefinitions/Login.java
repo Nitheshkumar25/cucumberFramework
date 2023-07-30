@@ -5,21 +5,28 @@ import static pageObjects.LoginPage.enterPassWord;
 import static pageObjects.LoginPage.inCorrectPwdUserNameMessageVerify;
 import static pageObjects.LoginPage.logOut;
 import static pageObjects.LoginPage.login;
+import static utils.CommonFunctions.setLog;
 import static utils.CommonFunctions.verifyURL;
+import static utils.Constants.LOG_PATH;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.apache.log4j.PropertyConfigurator;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
 
 public class Login {
-@Test
+
 	@Given("user  is on Login Page")
 	public void user_is_on_login_page() {
 
 		verifyURL("account/login");
+		PropertyConfigurator.configure(LOG_PATH);
+		setLog(Login.class).info("url verified done");
+
 	}
 
 	@When("User enters  Login Credentials username {string} password {string}")
@@ -29,6 +36,7 @@ public class Login {
 		enterPassWord(passWord);
 		login();
 		logOut();
+		setLog(Login.class).info("user logged in sc completed");
 	}
 
 	@When("User enters  incorrect password {string} and correct userName {string}")
@@ -36,7 +44,7 @@ public class Login {
 		enterEmail(user);
 		enterPassWord(wrongPwd);
 		login();
-
+		setLog(Login.class).info("user with wrong pwd  sc completed");
 	}
 
 	@When("User enters  incorrect username {string} and correct password {string}")
@@ -44,13 +52,14 @@ public class Login {
 		enterEmail(wrongUser);
 		enterPassWord(pwd);
 		login();
-
+		setLog(Login.class).info("user with wrong userName  sc completed");
 	}
 
 	@Then("user should get Error message")
 	public void user_should_get_error_message() {
 		
 		inCorrectPwdUserNameMessageVerify();
+		setLog(Login.class).info("Error message  verify completed");
 	}
 
 }

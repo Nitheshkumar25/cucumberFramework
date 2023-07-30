@@ -46,7 +46,7 @@ public class Hooks {
 
 	@Before
 	public void precondition() {
-		
+
 		WebElement myaccount = driver.findElement(By.xpath("//span[text()='My Account']"));
 		myaccount.click();
 		WebElement logIn = driver.findElement(By.xpath("//a[contains(text(),'Login')]"));
