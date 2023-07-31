@@ -1,7 +1,7 @@
-C:\Users\nitheshkumar.eshwaran@expleogroup.com\eclipse-workspace\quickstartProject\src\test\java\stepDefinitions\Search.java
-C:\Users\nitheshkumar.eshwaran@expleogroup.com\eclipse-workspace\quickstartProject\src\test\java\stepDefinitions\Login.java
-C:\Users\nitheshkumar.eshwaran@expleogroup.com\eclipse-workspace\quickstartProject\src\test\java\pageObjects\LoginPage.java
-C:\Users\nitheshkumar.eshwaran@expleogroup.com\eclipse-workspace\quickstartProject\src\test\java\runner\TestRunner.java
-C:\Users\nitheshkumar.eshwaran@expleogroup.com\eclipse-workspace\quickstartProject\src\test\java\factory\DriverStore.java
-C:\Users\nitheshkumar.eshwaran@expleogroup.com\eclipse-workspace\quickstartProject\src\test\java\pageObjects\SearchPage.java
-C:\Users\nitheshkumar.eshwaran@expleogroup.com\eclipse-workspace\quickstartProject\src\test\java\myHooks\Hooks.java
+C:\Users\nitheshkumar.eshwaran@expleogroup.com\eclipse-workspace\quickstartProject -v2\src\test\java\factory\DriverStore.java
+C:\Users\nitheshkumar.eshwaran@expleogroup.com\eclipse-workspace\quickstartProject -v2\src\test\java\runner\TestRunner.java
+C:\Users\nitheshkumar.eshwaran@expleogroup.com\eclipse-workspace\quickstartProject -v2\src\test\java\stepDefinitions\Search.java
+C:\Users\nitheshkumar.eshwaran@expleogroup.com\eclipse-workspace\quickstartProject -v2\src\test\java\pageObjects\LoginPage.java
+C:\Users\nitheshkumar.eshwaran@expleogroup.com\eclipse-workspace\quickstartProject -v2\src\test\java\pageObjects\SearchPage.java
+C:\Users\nitheshkumar.eshwaran@expleogroup.com\eclipse-workspace\quickstartProject -v2\src\test\java\stepDefinitions\Login.java
+C:\Users\nitheshkumar.eshwaran@expleogroup.com\eclipse-workspace\quickstartProject -v2\src\test\java\myHooks\Hooks.java

@@ -16,3 +16,7 @@
 =[INFO]-2023-07-31 14:07:32 INFO  Login:28 - url verified done:user_is_on_login_page
 =[INFO]-2023-07-31 14:07:33 INFO  Login:55 - user with wrong userName  sc completed:user_enters_incorrect_userName
 =[INFO]-2023-07-31 14:07:33 INFO  Login:62 - Error message  verify completed:user_should_get_error_message
+=[INFO]-2023-07-31 14:22:43 INFO  Login:28 - url verified done:user_is_on_login_page
+=[INFO]-2023-07-31 14:22:46 INFO  Login:39 - user logged in sc completed:user_enters_login_credentials_username_password
+=[INFO]-2023-07-31 14:31:57 INFO  Login:28 - url verified done:user_is_on_login_page
+=[INFO]-2023-07-31 14:32:00 INFO  Login:39 - user logged in sc completed:user_enters_login_credentials_username_password
