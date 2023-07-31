@@ -19,7 +19,7 @@ import static io.cucumber.core.options.Constants.PLUGIN_PROPERTY_NAME;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/resources/features",
-        glue = {"stepDefinitions", "myHooks"},
+        glue = {"stepDefinitions", "myHooks"},tags = "@logFeature",
         publish = true,
         monochrome = true,
         plugin = { "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})

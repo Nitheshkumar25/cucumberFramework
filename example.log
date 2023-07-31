@@ -6,3 +6,13 @@
 =[INFO]-2023-07-31 01:20:51 INFO  Login:26 - url verified done:user_is_on_login_page
 =[INFO]-2023-07-31 01:20:51 INFO  Login:53 - user with wrong userName  sc completed:user_enters_incorrect_userName
 =[INFO]-2023-07-31 01:20:51 INFO  Login:60 - Error message  verify completed:user_should_get_error_message
+=[INFO]-2023-07-31 14:05:01 INFO  Login:28 - url verified done:user_is_on_login_page
+=[INFO]-2023-07-31 14:05:05 INFO  Login:39 - user logged in sc completed:user_enters_login_credentials_username_password
+=[INFO]-2023-07-31 14:07:27 INFO  Login:28 - url verified done:user_is_on_login_page
+=[INFO]-2023-07-31 14:07:31 INFO  Login:39 - user logged in sc completed:user_enters_login_credentials_username_password
+=[INFO]-2023-07-31 14:07:31 INFO  Login:28 - url verified done:user_is_on_login_page
+=[INFO]-2023-07-31 14:07:32 INFO  Login:47 - user with wrong pwd  sc completed:user_enters_incorrect_password
+=[INFO]-2023-07-31 14:07:32 INFO  Login:62 - Error message  verify completed:user_should_get_error_message
+=[INFO]-2023-07-31 14:07:32 INFO  Login:28 - url verified done:user_is_on_login_page
+=[INFO]-2023-07-31 14:07:33 INFO  Login:55 - user with wrong userName  sc completed:user_enters_incorrect_userName
+=[INFO]-2023-07-31 14:07:33 INFO  Login:62 - Error message  verify completed:user_should_get_error_message
