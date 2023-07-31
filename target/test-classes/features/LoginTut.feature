@@ -1,7 +1,8 @@
+@logFeature
 Feature: login Feature
   I want to test login functionality
 
-  
+  @login
   Scenario: Login with valid credentials
     Given user  is on Login Page
     When User enters  Login Credentials username "nivek@gmail.com" password "abcd@123"
