@@ -1,3 +1,4 @@
+@search
 Feature: Search product functionality
 
 Scenario: search product with correct Product name

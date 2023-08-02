@@ -5,7 +5,6 @@ import static factory.DriverStore.driver;
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Method;
-
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter;
 import com.aventstack.extentreports.markuputils.ExtentColor;
@@ -64,12 +63,10 @@ public class Hooks {
 
 		}
 		//add logs to report
-		ExtentCucumberAdapter.getCurrentStep().log(Status.PASS, "Test PASSed:"+scenarioName);
+		//ExtentCucumberAdapter.getCurrentStep().log(Status.PASS, "Test PASSed:"+scenarioName);
 
-		ExtentCucumberAdapter.getCurrentStep().log(Status.INFO, MarkupHelper.createLabel("Test PASSed:"+scenarioName, ExtentColor.GREEN));
+	//	ExtentCucumberAdapter.getCurrentStep().log(Status.INFO, MarkupHelper.createLabel("Test PASSed:"+scenarioName, ExtentColor.GREEN));
 
 	}
-	@AfterStep
-	public void captureStepLogs(Scenario scenario){
-	}
+
 }

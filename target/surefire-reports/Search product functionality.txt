@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Search product functionality
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.43 s -- in Search product functionality
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.56 s -- in Search product functionality
